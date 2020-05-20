@@ -1,8 +1,8 @@
 body {
   margin-top: 105px;
   background: #d8e2dc;
-  color: #363435;
-  font-weight: 600;
+  color: #0f0f0f;
+  font-weight: 700;
 }
 
 .navbar {
@@ -13,6 +13,10 @@ body {
 .navbar .nav-item {
   font-size: 1.4rem;
   padding-right: 1.4rem;
+}
+
+a {
+  color: #5c6f68;
 }
 
 #showcase {
@@ -33,18 +37,33 @@ body {
 .info-header {
   width: 50%;
   margin: auto;
-  border-bottom: 1px #ddd solid;
+  border-bottom: 1px #5c6f68 solid;
 }
 
-#authors img {
+#team img {
   margin-top: -50px;
 }
-#authors .card:hover {
-  background: #3292a6;
+#team .card:hover {
+  background: #ffcad4;
   color: #fff;
 }
-#authors .fab {
-  color: #fff;
+#team .fab {
+  color: #5c6f68;
+}
+
+.paint {
+  opacity: 0.6;
+  height: 560px;
+
+  margin-left: 100px;
+}
+
+.Subscribe_button {
+  background: #5c6f68;
+}
+
+#about {
+  background: #ffcad4;
 }
 
 @media (max-width: 768px) {
@@ -53,9 +72,5 @@ body {
   }
   #showcase h1 {
     font-size: 4rem;
-  }
-
-  .mb-resp {
-    margin-bottom: 1rem;
   }
 }
